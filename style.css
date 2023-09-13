@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:  100%;
+    height: 100%;
+    background-color: rgb(99, 213, 228);
+}
+
+.board{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.scorecard{
+    margin: 5px auto;
+    display: flex;
+    width: 95%;
+    height: 80px;
+    border-radius: 15px;
+    background-color: #3048ea;
+    box-shadow: 5px 5px 5px black;
+}
+
+.scores{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    padding: 10px 10px;
+}
+
+.box{
+    font-size: 1.5em;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: #009cff;
+    border-radius: 8px;
+}
+
+.gamebody{
+    width: 100%;
+    padding: 10px;
+    height: calc(100% - 80px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: #009cff;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.bubble:hover{
+    background-color: #3048ea;
+}
