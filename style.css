@@ -18,11 +18,12 @@ html,body{
 }
 
 .board{
+    padding: 8px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     width: 70%;
-    height: 80%;
+    height: 76%;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 5px 5px 5px black;
@@ -57,7 +58,7 @@ h2{
 
 .gamebody{
     width: 100%;
-    padding: 10px;
+    padding-top: 10px;
     height: calc(100% - 80px);
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +80,23 @@ h2{
 
 .bubble:hover{
     background-color: #3048ea;
+}
+
+@media screen and (max-width:550px) {
+    .board{
+        width:95%;
+        height:85%
+    }
+}
+
+@media screen and (max-width:350px) {
+    h2,.box{
+        font-size: 15px;
+    }
+    .scorecard {
+        height: 55px;
+    }
+    .board{
+        height:70%;
+    }
 }
