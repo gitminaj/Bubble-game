@@ -82,9 +82,13 @@ h2{
     background-color: #3048ea;
 }
 
+.btn:hover{
+    color: grey;
+}
+
 @media screen and (max-width:550px) {
     .board{
-        width:95%;
+        width:90%;
         height:85%
     }
 }

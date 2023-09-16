@@ -26,6 +26,22 @@
     color: white;
 }
 
+.color-red{
+    color: red;
+}
+
 .cursor-pointer{
     cursor: pointer;
+}
+
+.btn{
+    border: none;
+    background: none;
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+}
+
+.f-bold{
+    font-weight: bold;
 }
